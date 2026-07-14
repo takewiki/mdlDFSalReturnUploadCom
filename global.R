@@ -11,7 +11,10 @@ module_id ='mdlDFSalReturnUploadCom'
 module_name ='模块演示'
 
 #获取数据中台数据库连接的token,演示数据为py_test
-dms_token ='5C9455BE-02BC-41EC-82D9-3DCDEAA8EF5F'
+#DF
+#dms_token ='5C9455BE-02BC-41EC-82D9-3DCDEAA8EF5F'
+#selectDB
+dms_token = 'E239E769-910C-4272-BCD3-C89F75A7A654'
 
 #加载数据中台的所有系统包及程序包
 tstk::import(app_id)
